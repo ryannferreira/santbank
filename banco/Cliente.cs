@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace banco
 {
-    internal class Cliente
+    public class Cliente
     {
         private string nome;
         private string cpf;
@@ -43,9 +43,9 @@ namespace banco
             }
         }
          public bool VerificarSenhaDigitada(string senhaDigitada)
-            {
-                return ClienteBLL.VerificarSenha(senhaDigitada, senha);
-            }
+         {
+            return ClienteBLL.VerificarSenha(senhaDigitada, senha);
+         }
 
         public string getNome()
         {

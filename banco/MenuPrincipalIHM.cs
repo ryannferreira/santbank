@@ -15,6 +15,7 @@ namespace banco
         public MenuPrincipalIHM()
         {
             InitializeComponent();
+            
         }
     }
 }

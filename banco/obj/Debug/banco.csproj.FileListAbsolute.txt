@@ -69,3 +69,16 @@ C:\Users\pedro\OneDrive - Instituto Superior de Educação Santa Cecilia\Área d
 C:\Users\pedro\OneDrive - Instituto Superior de Educação Santa Cecilia\Área de Trabalho\João\SANTBANK\banco\banco\obj\Debug\banco.csproj.CoreCompileInputs.cache
 C:\Users\pedro\OneDrive - Instituto Superior de Educação Santa Cecilia\Área de Trabalho\João\SANTBANK\banco\banco\obj\Debug\banco.exe
 C:\Users\pedro\OneDrive - Instituto Superior de Educação Santa Cecilia\Área de Trabalho\João\SANTBANK\banco\banco\obj\Debug\banco.pdb
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\bin\Debug\banco.exe.config
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\bin\Debug\banco.exe
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\bin\Debug\banco.pdb
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.AssemblyReference.cache
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.SuggestedBindingRedirects.cache
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.CadastroIHM.resources
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.LoginIHM.resources
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.MenuPrincipalIHM.resources
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.Properties.Resources.resources
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.GenerateResource.cache
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.CoreCompileInputs.cache
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.exe
+C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.pdb

@@ -93,6 +93,7 @@ namespace banco
             }
 
             ClienteDAL.consultaLogin(cliente);
+            ClienteDAL.consultaDados(cliente);
         }
 
         public static void validaCadastro(Cliente cliente)

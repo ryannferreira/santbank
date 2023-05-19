@@ -78,7 +78,6 @@
             this.tb_loginSenha.Size = new System.Drawing.Size(122, 26);
             this.tb_loginSenha.TabIndex = 3;
             this.tb_loginSenha.UseSystemPasswordChar = true;
-            this.tb_loginSenha.TextChanged += new System.EventHandler(this.tb_loginSenha_TextChanged);
             // 
             // label2
             // 
@@ -125,7 +124,6 @@
             this.mtb_loginCpf.Name = "mtb_loginCpf";
             this.mtb_loginCpf.Size = new System.Drawing.Size(121, 26);
             this.mtb_loginCpf.TabIndex = 7;
-            this.mtb_loginCpf.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtb_loginCpf_MaskInputRejected);
             // 
             // LoginIHM
             // 
@@ -149,7 +147,6 @@
             this.Name = "LoginIHM";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SANTBANK - Internet Banking";
-            this.Load += new System.EventHandler(this.LoginIHM_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -19,17 +19,12 @@ namespace banco
         {
             InitializeComponent();
         }
-        private void LoginIHM_Load(object sender, EventArgs e)
-        {
-
-        }
         private void btn_logar_Click(object sender, EventArgs e)
         {
             cliente.setCpf(mtb_loginCpf.Text);
             cliente.setSenha(tb_loginSenha.Text);
-            string senhaDigitada = tb_loginSenha.Text;
 
-            bool senhaValida = cliente.VerificarSenhaDigitada(senhaDigitada);
+            bool senhaValida = cliente.VerificarSenhaDigitada(tb_loginSenha.Text);
 
             ClienteBLL.validaLogin(cliente);
 
@@ -52,16 +47,6 @@ namespace banco
             this.Hide();
             CadastroIHM cadastroIHM = new CadastroIHM();
             cadastroIHM.Show();
-        }
-
-        private void tb_loginSenha_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void mtb_loginCpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
         }
     }
 }

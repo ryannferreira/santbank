@@ -133,5 +133,31 @@ namespace banco
             }
         }
 
+        public static void consultaDados(Cliente cliente)
+        {
+            conecta();
+            string aux = "select saldo from TabConta where cpf= @cpf";
+            strSQL = new OleDbCommand(aux, conn);
+
+            strSQL.Parameters.Add("@cpf", OleDbType.VarChar).Value = cpflogado;
+
+            OleDbDataReader dr = strSQL.ExecuteReader();
+
+            Erro.setErro(false);
+
+            if (dr.Read())
+            {
+                decimal saldo = dr.GetDecimal(1);
+
+                MenuPrincipalIHM menuPrincipalIHM = new MenuPrincipalIHM();
+
+                menuPrincipalIHM.lb_saldo.Text = saldo.ToString();
+            }
+            else
+            {
+                Erro.setMsg("Problema ao consultar o saldo!");
+            }
+            desconecta();
+        }
     }
 }
