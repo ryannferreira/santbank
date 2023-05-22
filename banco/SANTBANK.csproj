@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,7 +59,25 @@
       <DependentUpon>CadastroIHM.cs</DependentUpon>
     </Compile>
     <Compile Include="Conta.cs" />
+    <Compile Include="DepositoIHM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositoIHM.Designer.cs">
+      <DependentUpon>DepositoIHM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtratoCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtratoCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Erro.cs" />
+    <Compile Include="ExtratoIHM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtratoIHM.Designer.cs">
+      <DependentUpon>ExtratoIHM.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginIHM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,8 +100,30 @@
     <Compile Include="MenuPrincipalIHM.Designer.cs">
       <DependentUpon>MenuPrincipalIHM.cs</DependentUpon>
     </Compile>
+    <Compile Include="SaqueIHM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaqueIHM.Designer.cs">
+      <DependentUpon>SaqueIHM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferenciaIHM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferenciaIHM.Designer.cs">
+      <DependentUpon>TransferenciaIHM.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CadastroIHM.resx">
       <DependentUpon>CadastroIHM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositoIHM.resx">
+      <DependentUpon>DepositoIHM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtratoCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExtratoCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtratoIHM.resx">
+      <DependentUpon>ExtratoIHM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginIHM.resx">
       <DependentUpon>LoginIHM.cs</DependentUpon>
@@ -89,6 +135,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaqueIHM.resx">
+      <DependentUpon>SaqueIHM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferenciaIHM.resx">
+      <DependentUpon>TransferenciaIHM.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

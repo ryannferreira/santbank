@@ -82,3 +82,33 @@ C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.Ge
 C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.csproj.CoreCompileInputs.cache
 C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.exe
 C:\Users\raiam\Desktop\santbank atualizado\banco\banco\obj\Debug\banco.pdb
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\banco.exe.config
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\banco.exe
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\banco.pdb
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\bin\Debug\stdole.dll
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.csproj.AssemblyReference.cache
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.csproj.SuggestedBindingRedirects.cache
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.CadastroIHM.resources
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.LoginIHM.resources
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.MenuPrincipalIHM.resources
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.Properties.Resources.resources
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.csproj.GenerateResource.cache
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.csproj.CoreCompileInputs.cache
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.csproj.CopyComplete
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.exe
+C:\Users\raiam\Desktop\santbank att wai\SANTBANK\santbank\banco\obj\Debug\banco.pdb

@@ -30,9 +30,8 @@ namespace banco
 
             if (senhaValida && !Erro.getErro())
             {
-                ClienteDAL.cpflogado = cliente.getCpf();
-                this.Hide();
                 MenuPrincipalIHM menuPrincipalIHM = new MenuPrincipalIHM();
+                this.Hide(); 
                 menuPrincipalIHM.ShowDialog();
             }
             else

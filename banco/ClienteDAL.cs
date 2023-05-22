@@ -19,8 +19,8 @@ namespace banco
         private static OleDbConnection conn = new OleDbConnection(strConexao);
         private static OleDbCommand strSQL;
         private static OleDbDataReader result;
-        public static string cpflogado;
-
+        public static string saldo;
+        public static string nome;
 
         public static void conecta()
         {
@@ -87,6 +87,29 @@ namespace banco
             desconecta();
         }
 
+        public static void criaConta(Cliente cliente)
+        {
+            conecta();
+            string aux = "insert into TabConta(saldo, dataAbertura, cpf_user) values (0, @dataAbertura, @cpf_user)";
+            strSQL = new OleDbCommand(aux, conn);
+
+            strSQL.Parameters.Add("@dataAbertura", OleDbType.DBDate).Value = DateTime.Now;
+            strSQL.Parameters.Add("@cpf_user", OleDbType.VarChar).Value = cliente.getCpf();
+
+
+            Erro.setErro(false);
+
+            try
+            {
+                strSQL.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Erro na criação de conta bancária!", "Erro");
+            }
+        }
+
+        
         public static void consultaLogin(Cliente cliente)
         {
             conecta();
@@ -111,35 +134,15 @@ namespace banco
             desconecta();
         }
 
-        public static void criaConta(Cliente cliente)
-        {
-            conecta();
-            string aux = "insert into TabConta(saldo, dataAbertura, cpf_user) values (0, @dataAbertura, @cpf_user)";
-            strSQL = new OleDbCommand(aux, conn);
-
-            strSQL.Parameters.Add("@dataAbertura", OleDbType.DBDate).Value = DateTime.Now;
-            strSQL.Parameters.Add("@cpf_user", OleDbType.VarChar).Value = cliente.getCpf();
-            
-
-            Erro.setErro(false);
-
-            try
-            {
-                strSQL.ExecuteNonQuery();
-            }
-            catch(Exception)
-            {
-                MessageBox.Show("Erro na criação de conta bancária!", "Erro");
-            }
-        }
 
         public static void consultaDados(Cliente cliente)
         {
             conecta();
-            string aux = "select saldo from TabConta where cpf= @cpf";
-            strSQL = new OleDbCommand(aux, conn);
+            string aux = "select TabClientes.nome, TabConta.saldo from TabClientes inner join TabConta on TabClientes.cpf = TabConta.cpf_user where TabClientes.cpf = @cpf";
 
-            strSQL.Parameters.Add("@cpf", OleDbType.VarChar).Value = cpflogado;
+            strSQL = new OleDbCommand(aux, conn);
+            
+            strSQL.Parameters.Add("@cpf", OleDbType.VarChar).Value = cliente.getCpf();
 
             OleDbDataReader dr = strSQL.ExecuteReader();
 
@@ -147,15 +150,13 @@ namespace banco
 
             if (dr.Read())
             {
-                decimal saldo = dr.GetDecimal(1);
-
-                MenuPrincipalIHM menuPrincipalIHM = new MenuPrincipalIHM();
-
-                menuPrincipalIHM.lb_saldo.Text = saldo.ToString();
+                nome = dr.GetString(0);
+                decimal saldoDecimal = dr.GetDecimal(1);
+                saldo = saldoDecimal.ToString();
             }
             else
             {
-                Erro.setMsg("Problema ao consultar o saldo!");
+                Erro.setMsg("Problemas ao consultar o saldo!");
             }
             desconecta();
         }
