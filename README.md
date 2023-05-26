@@ -1,7 +1,7 @@
 # SANTBANK
 
 ## Sobre
-Bem-vindo ao SANTBANK, um projeto autoral em equipe que utiliza as tecnologias C# e ACESS.
+Bem-vindo ao SANTBANK, um projeto autoral em equipe que utiliza as tecnologias C# e ACCESS.
 
 ## Visão Geral
 O SANTBANK é um software que simula um sistema bancário, permitindo a criação de contas. Atualmente, estamos desenvolvendo o menu principal onde as transações serão realizadas, bem como a funcionalidade de geração de extrato de movimentações. Essas melhorias estarão disponíveis em versões futuras do projeto.
