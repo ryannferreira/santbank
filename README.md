@@ -6,7 +6,7 @@ Bem-vindo ao SANTBANK, um projeto autoral em equipe que utiliza as tecnologias C
 ## Visão Geral
 O SANTBANK é um software que simula um sistema bancário, permitindo a criação de contas. Atualmente, estamos desenvolvendo a funcionalidade de geração de extrato de movimentações. Essas melhorias estarão disponíveis em versões futuras do projeto.
 
-## Tela de login
+## Tela de Login
 ![TelaInicial](https://github.com/ryannferreira/santbank/assets/107849014/5dc47684-ab5f-454e-b4bf-fb766a0b7154)
 
 A tela inicial do software oferece opções para fazer o login ou criar uma conta. As credenciais são validadas comparando-as com os dados armazenados no banco de dados.
